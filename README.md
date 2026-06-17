@@ -1,11 +1,16 @@
-# Anime 67 Character Models
+# Anime 67 Six Character Models
 
 Browser viewer:
 
 https://oscarbrendonn.github.io/anime-67-all-models/
 
-This repository contains all full character GLB variants from:
+This repository contains six visible full-character GLB variants:
 
-`67karakter-KAFAB-kargo-BIRLESIK/varyantlar/`
+- `KARAKTER_4K_v5_BACK_FLAT.glb`
+- `KARAKTER_4K_v6_BACK_FLAT.glb`
+- `KARAKTER_4K_v7_BACK_FLAT.glb`
+- `KARAKTER_4K_v8_BACK_FLAT.glb`
+- `KARAKTER_4K_v9_BACK_FLAT.glb`
+- `KARAKTER_4K_v10_BACK_FLAT.glb`
 
-The gallery intentionally excludes `VUCUT_*` body-only outputs and split knee pieces. The site loads three comparison slots first. Any character model in the library can be assigned to slot 1, 2, or 3 and downloaded directly.
+The page intentionally has no picker or slot assignment: all six models render as fixed cards on the page.
