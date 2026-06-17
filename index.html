@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anime 67 Six Character Models</title>
+    <title>Anime 67 Character Models</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <style>
       :root {
@@ -200,100 +200,58 @@
   <body>
     <header class="topbar">
       <div class="title">
-        <h1>Anime 67 Six Character Models</h1>
-        <span class="subtitle">6 model yan yana. Secme yok; hepsi acik, hepsi dondurulebilir.</span>
+        <h1>Anime 67 Character Models</h1>
+        <span class="subtitle">9 tam karakter + 2 diz split parca. Secme yok; hepsi acik, hepsi dondurulebilir.</span>
       </div>
       <a class="repo-link" href="https://github.com/oscarbrendonn/anime-67-all-models">GitHub</a>
     </header>
 
-    <main class="grid" aria-label="Alti karakter modeli">
-      <article class="card">
-        <div class="card-head">
-          <div class="name">
-            <strong>Karakter V5</strong>
-            <span>Back flat temiz</span>
-          </div>
-        </div>
-        <model-viewer src="models/KARAKTER_4K_v5_BACK_FLAT.glb" camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
-        <div class="card-foot">
-          <span class="status">Yukleniyor...</span>
-          <a class="download" href="models/KARAKTER_4K_v5_BACK_FLAT.glb" download>GLB indir</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head">
-          <div class="name">
-            <strong>Karakter V6</strong>
-            <span>Back flat temiz</span>
-          </div>
-        </div>
-        <model-viewer src="models/KARAKTER_4K_v6_BACK_FLAT.glb" camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
-        <div class="card-foot">
-          <span class="status">Yukleniyor...</span>
-          <a class="download" href="models/KARAKTER_4K_v6_BACK_FLAT.glb" download>GLB indir</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head">
-          <div class="name">
-            <strong>Karakter V7</strong>
-            <span>Back flat temiz</span>
-          </div>
-        </div>
-        <model-viewer src="models/KARAKTER_4K_v7_BACK_FLAT.glb" camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
-        <div class="card-foot">
-          <span class="status">Yukleniyor...</span>
-          <a class="download" href="models/KARAKTER_4K_v7_BACK_FLAT.glb" download>GLB indir</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head">
-          <div class="name">
-            <strong>Karakter V8</strong>
-            <span>Back flat temiz</span>
-          </div>
-        </div>
-        <model-viewer src="models/KARAKTER_4K_v8_BACK_FLAT.glb" camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
-        <div class="card-foot">
-          <span class="status">Yukleniyor...</span>
-          <a class="download" href="models/KARAKTER_4K_v8_BACK_FLAT.glb" download>GLB indir</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head">
-          <div class="name">
-            <strong>Karakter V9</strong>
-            <span>Back flat temiz</span>
-          </div>
-        </div>
-        <model-viewer src="models/KARAKTER_4K_v9_BACK_FLAT.glb" camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
-        <div class="card-foot">
-          <span class="status">Yukleniyor...</span>
-          <a class="download" href="models/KARAKTER_4K_v9_BACK_FLAT.glb" download>GLB indir</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head">
-          <div class="name">
-            <strong>Karakter V10</strong>
-            <span>Yeni uretim, back flat temiz</span>
-          </div>
-          <span class="badge">NEW</span>
-        </div>
-        <model-viewer src="models/KARAKTER_4K_v10_BACK_FLAT.glb" camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
-        <div class="card-foot">
-          <span class="status">Yukleniyor...</span>
-          <a class="download" href="models/KARAKTER_4K_v10_BACK_FLAT.glb" download>GLB indir</a>
-        </div>
-      </article>
-    </main>
+    <main class="grid" aria-label="Karakter modelleri"></main>
 
     <script>
+      const models = [
+        ["Karakter V5", "Back flat temiz", "models/KARAKTER_4K_v5_BACK_FLAT.glb", ""],
+        ["Karakter V6", "Back flat temiz", "models/KARAKTER_4K_v6_BACK_FLAT.glb", ""],
+        ["Karakter V7", "Back flat temiz", "models/KARAKTER_4K_v7_BACK_FLAT.glb", ""],
+        ["Karakter V8", "Back flat temiz", "models/KARAKTER_4K_v8_BACK_FLAT.glb", ""],
+        ["Karakter V9", "Back flat temiz", "models/KARAKTER_4K_v9_BACK_FLAT.glb", ""],
+        ["Karakter V10", "Yeni uretim, back flat temiz", "models/KARAKTER_4K_v10_BACK_FLAT.glb", "NEW"],
+        ["Karakter V11", "Yeni 4K tam karakter", "models/KARAKTER_4K_v11.glb", "NEW"],
+        ["Karakter V12", "Yeni 4K tam karakter", "models/KARAKTER_4K_v12.glb", "NEW"],
+        ["Karakter V13", "Yeni 4K tam karakter", "models/KARAKTER_4K_v13.glb", "NEW"],
+        ["Diz Split Ust V2", "On + arka crop, diz altindan kesim", "models/KARAKTER_SPLIT_UST_DIZ_v2.glb", "SPLIT"],
+        ["Diz Split Alt V2", "On + arka crop, alt bacak ve ayakkabi", "models/KARAKTER_SPLIT_ALT_DIZ_v2.glb", "SPLIT"],
+      ];
+
+      const grid = document.querySelector(".grid");
+
+      models.forEach(([name, note, src, badge]) => {
+        const card = document.createElement("article");
+        card.className = "card";
+        card.innerHTML = `
+          <div class="card-head">
+            <div class="name">
+              <strong></strong>
+              <span></span>
+            </div>
+            ${badge ? '<span class="badge"></span>' : ''}
+          </div>
+          <model-viewer camera-controls auto-rotate auto-rotate-delay="0" shadow-intensity="0.8" exposure="1" environment-image="neutral" camera-orbit="0deg 75deg 3.2m" min-camera-orbit="auto auto 1.4m" max-camera-orbit="auto auto 8m"></model-viewer>
+          <div class="card-foot">
+            <span class="status">Yukleniyor...</span>
+            <a class="download" download>GLB indir</a>
+          </div>
+        `;
+        card.querySelector("strong").textContent = name;
+        card.querySelector(".name span").textContent = note;
+        if (badge) card.querySelector(".badge").textContent = badge;
+        const viewer = card.querySelector("model-viewer");
+        viewer.setAttribute("src", src);
+        const download = card.querySelector(".download");
+        download.href = src;
+        grid.appendChild(card);
+      });
+
       document.querySelectorAll("model-viewer").forEach((viewer) => {
         const status = viewer.closest(".card").querySelector(".status");
 
