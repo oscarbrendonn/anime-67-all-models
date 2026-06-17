@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anime 67 All Models</title>
+    <title>Anime 67 Character Models</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <style>
       :root {
@@ -400,8 +400,8 @@
     <main class="app">
       <header class="topbar">
         <div class="brand">
-          <h1>Anime 67 All Models</h1>
-          <span class="count" id="model-count">33 model</span>
+          <h1>Anime 67 Character Models</h1>
+          <span class="count" id="model-count">18 model</span>
         </div>
         <div class="top-actions">
           <a class="link-button" href="https://github.com/oscarbrendonn/anime-67-all-models">GitHub</a>
@@ -497,24 +497,9 @@
         { name: "KARAKTER 4K v9", file: "KARAKTER_4K_v9.glb", group: "Karakter", size: "21M" },
         { name: "KARAKTER 4K v9 back clean", file: "KARAKTER_4K_v9_BACK_CLEAN.glb", group: "Temiz", size: "34M" },
         { name: "KARAKTER 4K v9 back flat", file: "KARAKTER_4K_v9_BACK_FLAT.glb", group: "Temiz", size: "32M" },
-        { name: "KARAKTER split alt diz v1", file: "KARAKTER_SPLIT_ALT_DIZ_v1.glb", group: "Split", size: "17M" },
-        { name: "KARAKTER split ust diz v1", file: "KARAKTER_SPLIT_UST_DIZ_v1.glb", group: "Split", size: "21M" },
-        { name: "VUCUT v4", file: "VUCUT_v4.glb", group: "Vucut", size: "17M" },
-        { name: "VUCUT v5", file: "VUCUT_v5.glb", group: "Vucut", size: "27M" },
-        { name: "VUCUT v6", file: "VUCUT_v6.glb", group: "Vucut", size: "17M" },
-        { name: "VUCUT v7", file: "VUCUT_v7.glb", group: "Vucut", size: "24M" },
-        { name: "VUCUT v8", file: "VUCUT_v8.glb", group: "Vucut", size: "17M" },
-        { name: "VUCUT v9", file: "VUCUT_v9.glb", group: "Vucut", size: "30M" },
-        { name: "VUCUT v10", file: "VUCUT_v10.glb", group: "Vucut", size: "23M" },
-        { name: "VUCUT v11", file: "VUCUT_v11.glb", group: "Vucut", size: "17M" },
-        { name: "VUCUT v12", file: "VUCUT_v12.glb", group: "Vucut", size: "19M" },
-        { name: "VUCUT v13", file: "VUCUT_v13.glb", group: "Vucut", size: "18M" },
-        { name: "VUCUT v14", file: "VUCUT_v14.glb", group: "Vucut", size: "17M" },
-        { name: "VUCUT v15", file: "VUCUT_v15.glb", group: "Vucut", size: "17M" },
-        { name: "VUCUT v16", file: "VUCUT_v16.glb", group: "Vucut", size: "16M" }
       ].map((model) => ({ ...model, path: `models/${model.file}` }));
 
-      const groups = ["Hepsi", "Karakter", "Temiz", "Vucut", "Split"];
+      const groups = ["Hepsi", "Karakter", "Temiz"];
       const slots = [
         models.find((model) => model.file === "KARAKTER_4K_v7_BACK_FLAT.glb"),
         models.find((model) => model.file === "KARAKTER_4K_v8_BACK_FLAT.glb"),
